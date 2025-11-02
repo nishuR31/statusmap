@@ -4,8 +4,8 @@
 ## HTTP Status Codes
 
 
-[![npm version](https://img.shields.io/npm/v/status-map?color=blue&logo=npm)](https://www.npmjs.com/package/env-assistant)
-[![downloads](https://img.shields.io/npm/dt/status-map?color=brightgreen)](https://www.npmjs.com/package/env-assistant)
+[![npm version](https://img.shields.io/npm/v/status-map?color=blue&logo=npm)](https://www.npmjs.com/package/status-map)
+[![downloads](https://img.shields.io/npm/dt/status-map?color=brightgreen)](https://www.npmjs.com/package/status-map)
 ![license](https://img.shields.io/npm/l/status-map)
 ![typescript](https://img.shields.io/badge/Built%20With%20TypeScript-000000?logo=typescript)
 ![Node.js](https://img.shields.io/badge/Node.js-000000?logo=node.js)
