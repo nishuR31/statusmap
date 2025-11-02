@@ -3,6 +3,14 @@
 
 ## HTTP Status Codes
 
+
+[![npm version](https://img.shields.io/npm/v/status-map?color=blue&logo=npm)](https://www.npmjs.com/package/env-assistant)
+[![downloads](https://img.shields.io/npm/dt/status-map?color=brightgreen)](https://www.npmjs.com/package/env-assistant)
+![license](https://img.shields.io/npm/l/status-map)
+![typescript](https://img.shields.io/badge/Built%20With%20TypeScript-000000?logo=typescript)
+![Node.js](https://img.shields.io/badge/Node.js-000000?logo=node.js)
+![GitHub stars](https://img.shields.io/github/stars/nishuR31/statusmap?logo=github)
+
 A lightweight,module type easy-to-use utility to access HTTP status codes and messages in JavaScript. This package provides a simple way to retrieve HTTP status codes and their corresponding messages, making it easier to work with HTTP responses in your applications. 
 
 ## Features
@@ -66,7 +74,7 @@ For invalid codes or messages, the functions return `UnknownStatusCode`/`Unknown
 
 ```js
 console.log(http.code("invalid")); // unknownStatusMessage
-console.log(http.msg(9999));       // null
+console.log(http.msg(9999));       // UnknownStatusCode
 ```
 
 ## License
