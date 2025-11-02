@@ -4,10 +4,10 @@ const reverseMap = Object.fromEntries(
   Object.entries(codes).map(([key, value])=> [value, key])
 );
 
-export const msg: (T: number) => string = (code) =>
+export const msg: (T: number|string) => string = (code) =>
   reverseMap[code] ?? "UnknownStatuscode";
 export const code: (T: string) => number | string = (name) =>
-  codes[name] ?? "UnknownStatusMessage";
+  codes[name]  ?? "UnknownStatusMessage";
 
 export default {
   ...codes,
