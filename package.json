@@ -1,6 +1,6 @@
 {
   "name": "status-map",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "A module type only javascript/typescript utility providing HTTP status codes and messages.",
   "license": "MIT",
   "author": "Nishan <nishangithub@gmail.com>",
@@ -13,6 +13,8 @@
   "scripts": {
     "dev": "tsx src/index.ts",
     "build": "tsc",
+    "prepublish": "tsc",
+    "publish": "npm publish",
     "start": "node dist/index.js",
     "prestart": "npm run build",
     "test": "echo \"No tests specified\" && exit 0",

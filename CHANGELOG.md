@@ -7,7 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
-## [1.0.5] - 2025-11-02 (unpublished)
+## [1.0.7] - 2025-11-12 (published)
+### Added / Updated
+- Fixed minor typos
+
+---
+
+## [1.0.5] - 2025-11-02 (published)
 ### Added / Updated
 - Prepared new version with minor improvements and optimizations in internal code.
 - Added string and number support for msg()
