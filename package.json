@@ -1,7 +1,7 @@
 {
   "name": "status-map",
   "version": "1.0.5",
-  "description": "A module type only java/typescript utility providing HTTP status codes and messages.",
+  "description": "A module type only javascript/typescript utility providing HTTP status codes and messages.",
   "license": "MIT",
   "author": "Nishan <nishangithub@gmail.com>",
   "type": "module",
@@ -31,7 +31,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nishuR31/rescodes.git"
+    "url": "git+https://github.com/nishuR31/statusmap.git"
   },
   "keywords": [
     "http",
@@ -41,7 +41,7 @@
     "util"
   ],
   "bugs": {
-    "url": "https://github.com/nishuR31/rescodes/issues"
+    "url": "https://github.com/nishuR31/statusmap/issues"
   },
-  "homepage": "https://github.com/nishuR31/rescodes#readme"
+  "homepage": "https://github.com/nishuR31/statusmap#readme"
 }
